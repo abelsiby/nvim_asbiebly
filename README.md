@@ -1,8 +1,3 @@
-# 📊 DataNvim
-DataNvim is a custom Neovim distribution prepared for Data Science and to easily run code and interact with Jupyter Notebooks without ever leaving your terminal. It also provides a well structured config that makes it an easy starting point to extend it as you want.
-
-![DataNvim](https://github.com/NoOPeEKS/DataNvim/assets/73296276/4c22d6bd-e8fe-4151-a18f-05694a0154c2)
-
 ## 📋 Requirements
 - GCC
 - Kitty 0.28+
@@ -25,7 +20,7 @@ DataNvim is a custom Neovim distribution prepared for Data Science and to easily
 
 ## ✨ Feature Highlights
 - Carefully designed [configuration](#configuration) file structure for easy extension and modification
-- Beautiful colorscheme from [catppuccin](https://github.com/catppuccin/nvim)
+- Beautiful colorscheme from [onedark]([https://github.com/catppuccin/nvim](https://github.com/olimorris/onedarkpro.nvim))
 - Powerful file explorer with [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua)
 - Fuzzy search and preview files, words and gitfiles thanks to [telescope](https://github.com/nvim-telescope/telescope.nvim)
 - Preconfigured highlighting and Lsp Autocompletion for Python thanks to [treesitter](https://github.com/nvim-treesitter/nvim-treesitter) and [nvim-lsp-config](https://github.com/neovim/nvim-lspconfig)
