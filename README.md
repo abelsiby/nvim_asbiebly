@@ -72,7 +72,7 @@ mv ~/.config/nvim ~/config/nvim.bak
 ```
 - Install DataNvim's configuration
 ```bash
-git clone https://github.com/NoOPeEKS/DataNvim.git ~/.config/nvim && nvim
+git clone https://github.com/asbiebly/nvim_asbiebly.git ~/.config/nvim && nvim
 ```
 - Run the following commands:
 ```vim
