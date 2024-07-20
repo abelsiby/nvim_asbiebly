@@ -29,15 +29,6 @@
 - Simple but beautiful status bar thanks to [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 - Easy buffer navigation with [bufferline.nvim](https://github.com/akinsho/bufferline.nvim)
 
-## 🔍 Want to try our Docker Container first?
-- Pull DataNvim's image from `ghcr.io/noopeeks/data-nvim:latest`
-```bash
-docker run -it ghcr.io/noopeeks/data-nvim:latest /bin/bash
-# Once inside prompt, run nvim
-nvim
-```
-- Try it out, there is a demo .ipynb file in the home directory!
-
 ## 🛠️ Setting up for the first time
 >[!WARNING]
 > DataNvim will only render images if the terminal it's used on is Kitty!
