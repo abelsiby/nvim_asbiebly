@@ -1,3 +1,6 @@
+
+![Screenshot from 2024-07-20 16-54-35](https://github.com/user-attachments/assets/d6af78d1-5399-4974-a299-5f26525aca28)
+
 ## 📋 Requirements
 - GCC
 - Kitty 0.28+
@@ -32,10 +35,10 @@
 
 ## 🛠️ Setting up for the first time
 >[!WARNING]
-> DataNvim will only render images if the terminal it's used on is Kitty!
+> This will only render images if the terminal it's used on is Kitty since ueberzugpp does seem to render images on terminal emulator apps that I tested (gnome-terminal, alacritty)
 
 - Install all the listed dependencies
-- Install Kitty (if you want to render images in terminal, as unable render image even after successfully compiling ueberzugpp with gnome-terminal)
+- Install Kitty
 - Install [luarocks](https://luarocks.org/#quick-start), Lua language's package manager.
 - Install the `magick` rock with: `luarocks --local --lua-version=5.1 install magick`
 - Create a virtual environment for Neovim in `~/.virtualenvs/`
@@ -142,7 +145,7 @@ git clone https://github.com/asbiebly/nvim_asbiebly.git ~/.config/nvim && nvim
 | <kbd>Space</kbd> + <kbd>q</kbd>                       |  n   | Set to Quickfix list                    | 
 
 ## ✏️ Configuration
-DataNvim is a very straightforward Neovim distribution that aims to be a batteries-included starting point for Data Science in Neovim. Thus, its directory structure for configuration is meant to be easy to understand:
+Directory structure for configuration:
 ```
 ├── init.lua                <- Neovim's entrypoint. You should probably not modify anything here. Just require your own files.
 ├── lua                     <- Configuration for DataNvim goes here.
