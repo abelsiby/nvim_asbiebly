@@ -20,13 +20,14 @@
 
 ## ✨ Feature Highlights
 - Carefully designed [configuration](#configuration) file structure for easy extension and modification
-- Beautiful colorscheme from [onedark]([https://github.com/catppuccin/nvim](https://github.com/olimorris/onedarkpro.nvim))
+- Beautiful colorscheme from [onedark](https://github.com/catppuccin/nvim](https://github.com/olimorris/onedarkpro.nvim))
 - Powerful file explorer with [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua)
 - Fuzzy search and preview files, words and gitfiles thanks to [telescope](https://github.com/nvim-telescope/telescope.nvim)
 - Preconfigured highlighting and Lsp Autocompletion for Python thanks to [treesitter](https://github.com/nvim-treesitter/nvim-treesitter) and [nvim-lsp-config](https://github.com/neovim/nvim-lspconfig)
 - Extensible formatting, diagnostics, code actions and completion with [none-ls](https://github.com/nvimtools/none-ls.nvim) and [ruff](https://github.com/astral-sh/ruff)
 - Complete Jupyter Notebook interaction set up thanks to [molten.nvim](https://github.com/benlubas/molten-nvim), [quarto](https://github.com/quarto-dev/quarto-nvim), and [jupytext](https://github.com/GCBallesteros/jupytext.nvim)
 - Simple but beautiful status bar thanks to [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
+- [Codeium](https://github.com/Exafunction/codeium.vim) code completion 
 - Easy buffer navigation with [bufferline.nvim](https://github.com/akinsho/bufferline.nvim)
 
 ## 🛠️ Setting up for the first time
