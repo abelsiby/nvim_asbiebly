@@ -1,4 +1,4 @@
-
+# My NVIM Config
 ![Screenshot from 2024-07-20 16-54-35](https://github.com/user-attachments/assets/d6af78d1-5399-4974-a299-5f26525aca28)
 
 ## 📋 Requirements
