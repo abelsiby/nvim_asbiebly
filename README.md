@@ -34,7 +34,7 @@
 > DataNvim will only render images if the terminal it's used on is Kitty!
 
 - Install all the listed dependencies
-- Install Kitty (if you want to render images in terminal, as Ueberzug does not work in wayland and I am unable to compile ueberzug++ on arch)
+- Install Kitty (if you want to render images in terminal, as unable render image even after successfully compiling ueberzugpp with gnome-terminal)
 - Install [luarocks](https://luarocks.org/#quick-start), Lua language's package manager.
 - Install the `magick` rock with: `luarocks --local --lua-version=5.1 install magick`
 - Create a virtual environment for Neovim in `~/.virtualenvs/`
