@@ -58,11 +58,11 @@ source venv/bin/activate
 pip install ipykernel jupytext
 python -m ipykernel install --user --name project_name
 ```
-- Backup your current Neovim configuration
+- Backup your current Neovim configuration (if you have an existing config, else skip)
 ```bash
 mv ~/.config/nvim ~/config/nvim.bak
 ```
-- Install DataNvim's configuration
+- Install nvim configurations
 ```bash
 git clone https://github.com/asbiebly/nvim_asbiebly.git ~/.config/nvim && nvim
 ```
