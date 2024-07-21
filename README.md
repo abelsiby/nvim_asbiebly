@@ -104,7 +104,7 @@ rm -rf ~/.config/nvim/.git
 | <kbd>Ctrl</kbd> + <kbd>n</kbd>                                                           |  n   | Toggle file explorer                |
 | <kbd>Ctrl</kbd> + <kbd>j</kbd>                                                           |  n   | Focus file explorer                 |
 
-#### NvimTree
+#### ToggleTerm
 | Key                                                                                      | Mode | Action                              |
 | ---------------------------------------------------------------------------------------- | :--: | ----------------------------------- |
 | <kbd>Ctrl</kbd> + <kbd>t</kbd>                                                           |  n   | Toggle file terminal                |
