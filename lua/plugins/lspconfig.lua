@@ -12,7 +12,7 @@ return {
     config = function()
       require("mason-lspconfig").setup({
         ensure_installed = { "lua_ls", "ruff_lsp", "ruff", "pyright",
-                             "clangd", "prettier"},
+                             "clangd", "biome", "css-lsp"},
       })
     end,
   },
