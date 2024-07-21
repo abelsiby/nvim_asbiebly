@@ -154,3 +154,10 @@ Directory structure for configuration:
 │   ├── plugins             <- This folder contains all of your plugins. To install new ones, create a file and make it return your plugin.
 │   │   └── plugin_name.lua <- Returns a table with the plugin to install and its configuration.
 ```
+## Uninstall
+To uninstall:
+```
+rm -rf ~/.config/nvim
+rm -rf ~/.local/state/nvim
+rm -rf ~/.local/share/nvim
+```
