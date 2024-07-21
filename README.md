@@ -74,6 +74,10 @@ git clone https://github.com/asbiebly/nvim_asbiebly.git ~/.config/nvim && nvim
 :UpdateRemotePlugins
 :MasonInstallAll
 ```
+-Delete .git 
+```
+rm -rf ~/.config/nvim/.git
+```
 - Open your notebook with the virtual environment activated and load the kernel with `:MoltenInit project_name` or <kbd>Space</kbd> + <kbd>m</kbd> + <kbd>i</kbd>.
 - Start executing cells with [Keybindings](#keybindings)
 
@@ -99,6 +103,11 @@ git clone https://github.com/asbiebly/nvim_asbiebly.git ~/.config/nvim && nvim
 | ---------------------------------------------------------------------------------------- | :--: | ----------------------------------- |
 | <kbd>Ctrl</kbd> + <kbd>n</kbd>                                                           |  n   | Toggle file explorer                |
 | <kbd>Ctrl</kbd> + <kbd>j</kbd>                                                           |  n   | Focus file explorer                 |
+
+#### NvimTree
+| Key                                                                                      | Mode | Action                              |
+| ---------------------------------------------------------------------------------------- | :--: | ----------------------------------- |
+| <kbd>Ctrl</kbd> + <kbd>t</kbd>                                                           |  n   | Toggle file terminal                |
 
 #### None-ls
 | Key                                                                                      | Mode | Action                              |
