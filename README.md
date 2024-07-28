@@ -1,5 +1,6 @@
 # My NVIM Config
-![Screenshot from 2024-07-20 16-54-35](https://github.com/user-attachments/assets/d6af78d1-5399-4974-a299-5f26525aca28)
+![Screencast from 2024-07-28 12-59-50.webm](https://github.com/user-attachments/assets/daa8c65f-d228-4206-ab8b-bb4eea158fa4)
+
 
 ## 📋 Requirements
 - GCC
