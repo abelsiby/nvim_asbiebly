@@ -1,5 +1,7 @@
 # My NVIM Config
-![Screencast from 2024-07-28 12-59-50.webm](https://github.com/user-attachments/assets/daa8c65f-d228-4206-ab8b-bb4eea158fa4)
+![output](https://github.com/user-attachments/assets/bac3d6ce-2db0-46f1-9a73-6f3d0bd6a3ba)
+
+
 
 
 ## 📋 Requirements
