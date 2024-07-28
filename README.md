@@ -54,6 +54,15 @@ pip install ipykernel jupytext pynvim jupyter_client cairosvg plotly kaleido pyp
 python -m ipykernel
 deactivate
 ```
+
+- Alternatively if you want to use your conda base environment:
+```bash
+conda activate base
+pip install ipykernel jupytext pynvim jupyter_client cairosvg plotly kaleido pyperclip nbformat pillow
+python -m ipykernel
+deactivate
+```
+
 - Install ipykernel and jupytext in your project-scoped virtual environment
 ```bash
 cd whatever/directory/your/project/is/in
@@ -61,6 +70,14 @@ source venv/bin/activate
 pip install ipykernel jupytext
 python -m ipykernel install --user --name project_name
 ```
+
+- For conda, Install ipykernel and jupytext in your in your project conda environment
+```bash
+conda activate name_of_env
+pip install ipykernel jupytext
+python -m ipykernel install --user --name project_name
+```
+
 - Backup your current Neovim configuration (if you have an existing config, else skip)
 ```bash
 mv ~/.config/nvim ~/config/nvim.bak
