@@ -92,7 +92,7 @@ git clone https://github.com/asbiebly/nvim_asbiebly.git ~/.config/nvim && nvim
 - Run the following commands:
 ```vim
 :UpdateRemotePlugins
-:MasonInstallAll
+:Mason
 ```
 -Delete .git 
 ```
