@@ -1,5 +1,9 @@
 # My NVIM Config
-![output](https://github.com/user-attachments/assets/bac3d6ce-2db0-46f1-9a73-6f3d0bd6a3ba)
+![output](
+
+https://github.com/user-attachments/assets/ca3e5614-fbf8-43ba-8b0f-cb5cc3b4a66f
+
+)
 
 
 
@@ -26,14 +30,13 @@
 
 ## ✨ Feature Highlights
 - Carefully designed [configuration](#configuration) file structure for easy extension and modification
-- Beautiful colorscheme from [onedark](https://github.com/catppuccin/nvim](https://github.com/olimorris/onedarkpro.nvim))
+- Beautiful colorscheme from [onedark](https://github.com/neanias/everforest-nvim))
 - Powerful file explorer with [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua)
 - Fuzzy search and preview files, words and gitfiles thanks to [telescope](https://github.com/nvim-telescope/telescope.nvim)
 - Preconfigured highlighting and Lsp Autocompletion for Python thanks to [treesitter](https://github.com/nvim-treesitter/nvim-treesitter) and [nvim-lsp-config](https://github.com/neovim/nvim-lspconfig)
 - Extensible formatting, diagnostics, code actions and completion with [none-ls](https://github.com/nvimtools/none-ls.nvim) and [ruff](https://github.com/astral-sh/ruff)
 - Complete Jupyter Notebook interaction set up thanks to [molten.nvim](https://github.com/benlubas/molten-nvim), [quarto](https://github.com/quarto-dev/quarto-nvim), and [jupytext](https://github.com/GCBallesteros/jupytext.nvim)
 - Simple but beautiful status bar thanks to [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
-- [Codeium](https://github.com/Exafunction/codeium.vim) code completion 
 - Easy buffer navigation with [bufferline.nvim](https://github.com/akinsho/bufferline.nvim)
 
 ## 🛠️ Setting up for the first time
@@ -42,6 +45,7 @@
 
 - Install all the listed dependencies
 - Install Kitty
+- Install lua 5.1
 - Install [luarocks](https://luarocks.org/#quick-start), Lua language's package manager.
 - Install the `magick` rock with: `luarocks --local --lua-version=5.1 install magick`
 - Create a virtual environment for Neovim in `~/.virtualenvs/`
@@ -58,14 +62,19 @@ python -m ipykernel
 deactivate
 ```
 
-- Alternatively if you want to use your conda base environment:
+- Alternatively if you want to use your conda/miniforge base environment:
 ```bash
 conda activate base
-pip install ipykernel jupytext pynvim jupyter_client cairosvg plotly kaleido pyperclip nbformat pillow
+ip install ipykernel jupytext pynvim jupyter_client cairosvg plotly kaleido pyperclip nbformat pillow
+python -m ipykernel
+deactivatpe
+```
+```bash
+mamba activate base
+ip install ipykernel jupytext pynvim jupyter_client cairosvg plotly kaleido pyperclip nbformat pillow
 python -m ipykernel
 deactivate
 ```
-
 - Install ipykernel and jupytext in your project-scoped virtual environment
 ```bash
 cd whatever/directory/your/project/is/in
@@ -74,7 +83,7 @@ pip install ipykernel jupytext
 python -m ipykernel install --user --name project_name
 ```
 
-- For conda, Install ipykernel and jupytext in your in your project conda environment
+- For conda/miniforge, Install ipykernel and jupytext in your in your project conda environment
 ```bash
 conda activate name_of_env
 pip install ipykernel jupytext
@@ -100,7 +109,7 @@ rm -rf ~/.config/nvim/.git
 ```
 - Open your notebook with the virtual environment activated and load the kernel with `:MoltenInit project_name` or <kbd>Space</kbd> + <kbd>m</kbd> + <kbd>i</kbd>.
 - Start executing cells with [Keybindings](#keybindings)
-
+- If :MoltenInit fails to load the ipykernel make sure ` ~/.local/share/jupyter/runtime ` is present, if not create the directory and try :MoltenInit again.
 
 ## ⌨️ Keybindings
 
