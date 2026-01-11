@@ -1,5 +1,5 @@
 # My NVIM Config
-![output](https://github.com/user-attachments/assets/ca3e5614-fbf8-43ba-8b0f-cb5cc3b4a66f)
+![output](![recording](https://github.com/user-attachments/assets/56848d09-2581-4ce4-8c49-34aadb6f1712))
 
 
 
