@@ -60,7 +60,7 @@ deactivate
 - Alternatively if you want to use your conda/miniforge base environment:
 ```bash
 conda activate base
-ip install ipykernel jupytext pynvim jupyter_client cairosvg plotly kaleido pyperclip nbformat pillow
+pip install ipykernel jupytext pynvim jupyter_client cairosvg plotly kaleido pyperclip nbformat pillow
 python -m ipykernel
 deactivatpe
 ```
@@ -75,7 +75,7 @@ deactivate
 cd whatever/directory/your/project/is/in
 source venv/bin/activate
 pip install ipykernel jupytext
-python -m ipykernel install --user --name project_name
+python -m ipykernel install --user --name python3 --display-name "python3"
 ```
 
 - For conda/miniforge, Install ipykernel and jupytext in your in your project conda environment
