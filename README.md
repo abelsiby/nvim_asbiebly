@@ -1,9 +1,5 @@
 # My NVIM Config
-![output](
-
-https://github.com/user-attachments/assets/ca3e5614-fbf8-43ba-8b0f-cb5cc3b4a66f
-
-)
+![output](https://github.com/user-attachments/assets/ca3e5614-fbf8-43ba-8b0f-cb5cc3b4a66f)
 
 
 
