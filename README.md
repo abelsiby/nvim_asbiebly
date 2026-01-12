@@ -1,6 +1,5 @@
 # My NVIM Config
-![recording](https://github.com/user-attachments/assets/82cf9413-f134-4f45-b8ac-e53b65f32b34)
-
+![ezgif-65a37cdb0cb7cddd](https://github.com/user-attachments/assets/eb871af7-9356-4346-8c86-00b3a1076542)
 
 
 ## 📋 Requirements
