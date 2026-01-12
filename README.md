@@ -5,7 +5,7 @@
 ## 📋 Requirements
 - GCC
 - Kitty 0.28+
-- Neovim 0.9.4+
+- Neovim 0.11.5+
 - Python 3.10+
 - Ripgrep 11.0+
 - Quarto
