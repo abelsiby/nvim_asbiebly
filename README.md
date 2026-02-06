@@ -8,9 +8,9 @@
 - Neovim 0.11.5+
 - Python 3.10+
 - Ripgrep 11.0+
-- Quarto
 - Npm 10.8.1+
 - ImageMagick
+- dkjson
 - Lua 5.1
 - Required python packages:
     - [`pynvim`](https://github.com/neovim/pynvim)
@@ -41,6 +41,7 @@
 - Install Kitty
 - Install lua 5.1
 - Install [luarocks](https://luarocks.org/#quick-start), Lua language's package manager.
+- Install `dkjson` with rock using `luarocks --local --lua-version=5.1 install dkjson` (this package should be pre-installed by default, but I found it to be not installed with later versions of arch linux)
 - Install the `magick` rock with: `luarocks --local --lua-version=5.1 install magick`
 - Create a virtual environment for Neovim in `~/.virtualenvs/`
 ```bash
