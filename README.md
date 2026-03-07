@@ -38,7 +38,7 @@
 > This will only render images if the terminal it's used on is Kitty since ueberzugpp does seem to render images on terminal emulator apps that I tested (gnome-terminal, alacritty)
 
 - Install all the listed dependencies
-- Install Kitty
+- Install Kitty (works with KDE Konsole as well)
 - Install lua 5.1
 - Install [luarocks](https://luarocks.org/#quick-start), Lua language's package manager.
 - Install `dkjson` with rock using `luarocks --local --lua-version=5.1 install dkjson` (this package should be pre-installed by default, but I found it to be not installed with later versions of arch linux)
@@ -89,6 +89,17 @@ python -m ipykernel install --user --name project_name
 ```bash
 mv ~/.config/nvim ~/config/nvim.bak
 ```
+
+- Note: If you are using KDE Konsole, update backend to `sixel` in line 14 in `image.lua` 
+```bash
+backend = "sixel"
+```
+- - Screenshot of a juupyter notebook with KDE Konsole
+<img width="1068" height="647" alt="Screenshot From 2026-03-08 00-41-07" src="https://github.com/user-attachments/assets/431821a1-3caf-4fda-8bfc-fbe84e0740f0" />
+
+
+
+
 - Install nvim configurations
 ```bash
 git clone https://github.com/asbiebly/nvim_asbiebly.git ~/.config/nvim && nvim
