@@ -108,6 +108,7 @@ git clone https://github.com/asbiebly/nvim_asbiebly.git ~/.config/nvim && nvim
 ```vim
 :UpdateRemotePlugins
 :Mason
+:TSInstall lua python markdown markdown_inline
 ```
 -Delete .git 
 ```
