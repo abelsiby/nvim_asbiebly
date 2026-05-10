@@ -2,6 +2,7 @@ return {
   "quarto-dev/quarto-nvim",
   ft = { "quarto", "markdown" },
   dependencies = {
+    "L3MON4D3/LuaSnip",
     -- Otter provides the "LSP inside LSP" magic for code chunks
     {
       "jmbuhr/otter.nvim",
@@ -40,6 +41,26 @@ return {
   config = function(_, opts)
     local quarto = require("quarto")
     quarto.setup(opts)
+
+    local ls = require("luasnip")
+    local s = ls.snippet
+    local t = ls.text_node
+    local i = ls.insert_node
+
+    ls.add_snippets("markdown", {
+      s("pycell", {
+        t("```python"),
+        t({"", ""}),
+        i(1),
+        t({"", "```"}),
+      }),
+    })
+
+    -- Link markdown snippets to quarto and ipynb files
+    ls.filetype_extend("quarto", { "markdown" })
+    ls.filetype_extend("ipynb", { "markdown" })
+
+
     -- Custom Quarto Keymaps
     vim.keymap.set("n", "<leader>qp", quarto.quartoPreview, { desc = "Quarto Preview" })
     vim.keymap.set("n", "<leader>qq", quarto.quartoClosePreview, { desc = "Close Preview" })
