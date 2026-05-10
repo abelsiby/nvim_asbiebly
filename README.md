@@ -158,6 +158,8 @@ rm -rf ~/.config/nvim/.git
 | <kbd>Space</kbd> + <kbd>m</kbd> + <kbd>v</kbd>                                           |  v   | Molten Evaluate Visual Selection    |
 | <kbd>Space</kbd> + <kbd>m</kbd> + <kbd>o</kbd>                                           |  n   | Molten Enter Cell Output            |
 | <kbd>Space</kbd> + <kbd>m</kbd> + <kbd>h</kbd>                                           |  n   | Molten Hide Output                  |
+| <kbd>pycell</kbd> + <kbd>enter</kbd>                                                     |  i   | Create new cell                     |
+
 
 #### Telescope
 | Key                                                                                      | Mode | Action                              |
