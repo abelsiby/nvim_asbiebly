@@ -25,7 +25,7 @@
 
 ## ✨ Feature Highlights
 - Carefully designed [configuration](#configuration) file structure for easy extension and modification
-- Changed colorscheme to [Material-Darker]([https://github.com/nvim-tree/nvim-tree.lua](https://github.com/marko-cerovac/material.nvim))
+- Changed colorscheme to [Material-Darker]([https://github.com/nvim-tree/nvim-tree.lua](https://github.com/marko-cerovac/material.nvim)
 - Powerful file explorer with [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua)
 - Fuzzy search and preview files, words and gitfiles thanks to [telescope](https://github.com/nvim-telescope/telescope.nvim)
 - Preconfigured highlighting and Lsp Autocompletion for Python thanks to [treesitter](https://github.com/nvim-treesitter/nvim-treesitter) and [nvim-lsp-config](https://github.com/neovim/nvim-lspconfig)
