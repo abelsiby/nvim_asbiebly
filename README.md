@@ -1,6 +1,5 @@
 # My NVIM Config
-<img width="1060" height="654" alt="Screencast From 2026-05-29 18-48-43" src="https://github.com/user-attachments/assets/d37f8386-9cc2-4f25-9c82-20ebd0fbc768" />
-
+<img width="800" height="491" alt="demo" src="https://github.com/user-attachments/assets/21b8b5dd-6055-4107-bf40-6fd84f5f425f" />
 
 
 ## 📋 Requirements
@@ -208,4 +207,5 @@ To uninstall:
 rm -rf ~/.config/nvim
 rm -rf ~/.local/state/nvim
 rm -rf ~/.local/share/nvim
+rm -rf ~/.cache/nvim
 ```
