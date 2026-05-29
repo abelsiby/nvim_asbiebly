@@ -6,14 +6,18 @@ return {
   opts = {
     -- Options are: 'oceanic', 'lighter', 'deep ocean', 'palenight', 'main', or 'darker'
     style = "darker",
-    -- Customizations (optional, matching your previous setups)
     italic_comments = true,
     disable_background = false, -- Set to true if you want a transparent background
+    -- This is the specific config option for lualine
+    -- Choices are: "default" or "stealth"
+    lualine_style = "default",
   },
   config = function(_, opts)
-    -- Set the global variable for the style BEFORE loading the colorscheme
+    -- 1. Set the global variable for the style BEFORE loading
     vim.g.material_style = opts.style
-    -- Load the colorscheme
+    -- 2. Run the actual material setup with your options
+    require('material').setup(opts)
+    -- 3. Load the colorscheme
     vim.cmd([[colorscheme material]])
   end,
 }

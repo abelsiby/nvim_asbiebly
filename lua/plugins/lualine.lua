@@ -4,8 +4,8 @@ return {
   event = "VeryLazy", -- Load after the UI starts for better performance
   opts = {
     options = {
-      -- Match your Everforest theme from the previous step
-      theme = "everforest",
+      -- CHANGE: Set to "auto" to dynamically match material.nvim
+      theme = "auto",
       component_separators = { left = "│", right = "│" },
       section_separators = { left = "", right = "" },
       globalstatus = true, -- Highly recommended for Neovim 0.11
@@ -29,7 +29,8 @@ return {
             return "[" .. table.concat(client_names, ", ") .. "]"
           end,
           icon = " ",
-          color = { fg = "#a7c080", gui = "bold" },
+          -- CHANGE: Removed the hardcoded everforest green hex color so it matches material
+          color = { gui = "bold" },
         },
         "encoding",
         "filetype",
