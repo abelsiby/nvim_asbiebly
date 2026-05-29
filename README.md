@@ -1,5 +1,6 @@
 # My NVIM Config
-![ezgif-65a37cdb0cb7cddd](https://github.com/user-attachments/assets/eb871af7-9356-4346-8c86-00b3a1076542)
+<img width="1060" height="654" alt="Screencast From 2026-05-29 18-48-43" src="https://github.com/user-attachments/assets/d37f8386-9cc2-4f25-9c82-20ebd0fbc768" />
+
 
 
 ## 📋 Requirements
@@ -24,7 +25,7 @@
 
 ## ✨ Feature Highlights
 - Carefully designed [configuration](#configuration) file structure for easy extension and modification
-- Beautiful colorscheme from [onedark](https://github.com/neanias/everforest-nvim))
+- Changed colorscheme to [Material-Darker]([https://github.com/nvim-tree/nvim-tree.lua](https://github.com/marko-cerovac/material.nvim))
 - Powerful file explorer with [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua)
 - Fuzzy search and preview files, words and gitfiles thanks to [telescope](https://github.com/nvim-telescope/telescope.nvim)
 - Preconfigured highlighting and Lsp Autocompletion for Python thanks to [treesitter](https://github.com/nvim-treesitter/nvim-treesitter) and [nvim-lsp-config](https://github.com/neovim/nvim-lspconfig)
