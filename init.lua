@@ -12,7 +12,7 @@ end
 vim.opt.rtp:prepend(lazypath)
 require("vim-options")
 require("lazy").setup("plugins")
-vim.g.python3_host_prog=vim.fn.expand("~/.miniforge3/bin/python3") -- for conda use "~/.virtualenvs/neovim/bin/python3"
+vim.g.python3_host_prog=vim.fn.expand("~/.mamba/bin/python3") -- for conda use "~/.virtualenvs/neovim/bin/python3"
 
 vim.g.loaded_python3_provider = nil
 vim.cmd('runtime! plugin/rplugin.vim')
