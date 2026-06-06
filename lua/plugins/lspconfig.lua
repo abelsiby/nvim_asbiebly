@@ -11,7 +11,7 @@ return {
     lazy = false,
     config = function()
       require("mason-lspconfig").setup({
-        ensure_installed = { "lua_ls", "ruff", "pyright", "clangd", "biome", "cssls" },
+        ensure_installed = { "lua_ls", "ruff", "pyright", "clangd", "biome", "cssls", "sqls" },
       })
     end,
   },
