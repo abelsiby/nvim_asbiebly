@@ -171,6 +171,19 @@ rm -rf ~/.config/nvim/.git
 | <kbd>Space</kbd> + <kbd>f</kbd> + <kbd>z</kbd>                                           |  n   | Telescope Fuzzy Find Current Buffer |
 | <kbd>Space</kbd> + <kbd>f</kbd> + <kbd>h</kbd>                                           |  n   | Telescope Help Tags                 |
 
+### Latex
+| Key                                            | Mode  | Action                       |
+| :--------------------------------------------- | :---: | :--------------------------- |
+| <kbd>Space</kbd> + <kbd>t</kbd> + <kbd>c</kbd> | n     | Compile current LaTeX buffer |
+| <kbd>Space</kbd> + <kbd>t</kbd> + <kbd>p</kbd> | n     | Preview compiled PDF         |
+| <kbd>Space</kbd> + <kbd>t</kbd> + <kbd>a</kbd> | n     | Toggle auto-compile on save  |
+
+If you prefer not to use keybindings, you can execute these commands directly in the Neovim command line:
+
+* `:TexCompile` — Manually triggers the compiler.
+* `:TexPreview` — Opens the generated PDF.
+* `:TexAutoToggle` — Enables or disables automatic compilation on every save.
+
 #### LSP
 | Key                                                   | Mode | Action                                  |
 |-------------------------------------------------------| :--: |-----------------------------------------|
