@@ -171,7 +171,7 @@ rm -rf ~/.config/nvim/.git
 | <kbd>Space</kbd> + <kbd>f</kbd> + <kbd>z</kbd>                                           |  n   | Telescope Fuzzy Find Current Buffer |
 | <kbd>Space</kbd> + <kbd>f</kbd> + <kbd>h</kbd>                                           |  n   | Telescope Help Tags                 |
 
-### Latex
+#### Latex
 | Key                                            | Mode  | Action                       |
 | :--------------------------------------------- | :---: | :--------------------------- |
 | <kbd>Space</kbd> + <kbd>t</kbd> + <kbd>c</kbd> | n     | Compile current LaTeX buffer |
